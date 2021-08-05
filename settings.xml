@@ -12,7 +12,7 @@
 
   <mirrors>
     <mirror>
-      <id>nexus-premise</id>
+      <id>nexus</id>
       <!-- <name>Nexus On-Premise</name> -->
       <url>http://localhost:8081/repository/maven-releases//</url>
       <mirrorOf>*</mirrorOf>
