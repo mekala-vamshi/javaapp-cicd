@@ -78,11 +78,11 @@
    <distributionManagement>
       <repository>
          <id>nexus-premise</id>
-         <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+         <url>http://localhost:8081/nexus/content/repositories/maven-releases/</url>
       </repository>
 	  <snapshotRepository>
             <id>nexus-premise</id>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://localhost:8081/nexus/content/repositories/mavensnapshots/</url>
         </snapshotRepository>
    </distributionManagement>
 
