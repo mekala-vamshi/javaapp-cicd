@@ -2,7 +2,7 @@
   <localRepository>.m2</localRepository>
   <servers>
     <server>
-      <id>nexus-premise</id>
+      <id>nexus</id>
       <!-- <username>${env.NEXUS_CREDS_USR}</username>
       <password>${env.NEXUS_CREDS_PSW}</password> -->
       <username>admin</username>
