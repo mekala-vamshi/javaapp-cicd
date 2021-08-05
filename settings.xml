@@ -5,8 +5,8 @@
       <id>nexus-premise</id>
       <!-- <username>${env.NEXUS_CREDS_USR}</username>
       <password>${env.NEXUS_CREDS_PSW}</password> -->
-      <username>${server.username}</username>
-      <password>${server.password}</password>
+      <username>admin</username>
+      <password>admin123</password>
     </server>
   </servers>
 
@@ -14,7 +14,7 @@
     <mirror>
       <id>nexus-premise</id>
       <!-- <name>Nexus On-Premise</name> -->
-      <url>http://ec2-15-206-189-141.ap-south-1.compute.amazonaws.com:8081/repository/maven-public/</url>
+      <url>http://localhost:8081/repository/maven-releases//</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
